@@ -4,7 +4,7 @@
 Welcome to my personal portfolio website!  
 This project showcases my skills, featured projects, and provides an easy way to connect with me.
 
-[View Live Portfolio](https://Siva-ops-coder.github.io/portfolio/) 🚀
+[View Live Portfolio](https://siva-ops-coder.github.io/portfolio-/)🚀
 
 ---
 
