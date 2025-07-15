@@ -1,0 +1,93 @@
+<!DOCTYPE>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Handlee">
+
+<h1 id="title"> Course Enrollement Form </h1>
+<p id="description"> Let us know which stack do you prefer to go through. </p>
+
+<form id="survey-form">
+  <div>
+  <label for="name" id="name-label">
+    <span>Name</span>
+  <input type="text" id="name"                placeholder=" Name"                  required>
+  </label>
+  
+  <label for="email" id="email-label">
+    <span>Email</span>
+  <input type="email" id="email"              placeholder=" Email"                required>
+  </label>
+  
+  <label for="number" id="number-label">
+    <span>Phone Number</span>
+  <input  type="number" id="number"            min="1"                              max="100000000000"                  placeholder=" Number">
+  </label>
+  
+  <label for="dropdown" >choose a stack.</label>
+  <select id="dropdown">
+  <option value="choose-one" >choose a stack...</option>
+  <option value="front-end">Front-end developer</option>
+  <option value="back-end">back-end developer</option>
+  <option value="full-stack">Full-stack developer</option>  
+  <option value="data">Data engineer </option>
+  <option value="ML">Machine Learning</option>
+  <option value="solidity">Ethereum developer</option>
+  </select>
+  
+  <p class="radio-p"> select the amount you can afford to pay for this course. </p>
+    <div class="radio">
+  <label>
+  <input type="radio" name="stack"              value="500 $"> 500 $  </label> <br>
+  <label>
+  <input type="radio" name="stack"              value="999 $"> 999 $   </label> <br>
+  <label>
+  <input type="radio" name="stack"              value="1500 $"> 1500 $   </label>
+   </div>
+    
+  <p class="check-p"> which of the following technologies you've an experience with before. </p>
+    
+    <div class="checkbox">
+  <label>
+  <input type="checkbox"                        value="HTML"> HTML
+  </label> <br>
+  <label>
+  <input type="checkbox"                      value="CSS"> CSS
+  </label> <br>
+  <label>
+  <input type="checkbox"                      value="JavaScript"> Javascript
+  </label> <br>
+ <label>
+  <input type="checkbox"                      value="Vue"> Vue
+  </label> <br>
+  <label>
+  <input type="checkbox"                      value="React"> React
+  </label> <br>
+  <label>
+  <input type="checkbox"                      value="NodeJS"> NodeJS
+  </label> <br>
+  <label>
+  <input type="checkbox"                      value="PHP"> PHP
+  </label> <br>
+  <label>
+  <input type="checkbox"                      value="Solidity"> Solidity
+  </label> <br>
+  <label>
+  <input type="checkbox"                      value="C++"> C++
+  </label> <br>
+  <label>
+  <input type="checkbox"                      value="NPM"> NPM
+  </label> <br>
+  <label>
+  <input type="checkbox"                      value="Webpack"> Webpack
+  </label> <br>
+  <label>
+  <input type="checkbox"                      value="Bootstrap"> Bootstrap
+  </label>
+    </div>
+  
+  <textarea name="comment"                       placeholder=" any proposition to add..."></textarea>
+  
+  <button id="submit"> Submit         </button>
+    
+  </div>
+  
+</form>
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
